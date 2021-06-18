@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "extrasucchopper",
+  "version": "${version}",
+
+  "name": "Extra Succ Hopper",
+  "description": "Separates hopper item pickup and push/pull cooldown.",
+  "authors": [
+    "Domi"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-succ-hopper",
+    "sources": "https://github.com/FakeDomi/ExtraSuccHopper",
+    "issues": "https://github.com/FakeDomi/ExtraSuccHopper/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/extrasucchopper/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "extra-succ-hopper.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.17",
+    "java": ">=16"
+  }
+}
